@@ -24,3 +24,36 @@ console.log(totalPrice);
 
 returnMoney = haveMoney - totalPrice;
 console.log(returnMoney);
+
+
+
+
+/*****Practice Problem 1 *****/
+/*Task-2
+Write a program to calculate the average marks of Mathematics, Biology, Chemistry, Physics, and Bangla of a student.
+
+Input:
+The first line of the input is the marks of the five subjects mentioned above, respectively.
+
+Output:
+Print the result in 2 decimal places.
+
+Sample Input:
+75.25, 65, 80, 35.45, 99.50
+
+Sample Output:
+71.04 */
+
+var mathematicsNumber = 75.25;
+var biologyNumber = 65;
+var chemistryNumber = 80;
+var physicsNumber = 35.45;
+var banglaNumber = 99.50;
+
+sumOfAllSubjects =( mathematicsNumber + biologyNumber + chemistryNumber + physicsNumber + banglaNumber);
+console.log(sumOfAllSubjects);
+
+average = (sumOfAllSubjects / 5);
+console.log(average. toFixed(2));
+
+
