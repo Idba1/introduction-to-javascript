@@ -20,7 +20,7 @@ var haveMoney = 1000;
 var orangePrice = 400;
 var applePrice = 300;
 totalPrice = orangePrice + applePrice;
-console.log(totalPrice);
+// console.log(totalPrice);
 
 returnMoney = haveMoney - totalPrice;
 console.log(returnMoney);
@@ -51,7 +51,7 @@ var physicsNumber = 35.45;
 var banglaNumber = 99.50;
 
 sumOfAllSubjects =( mathematicsNumber + biologyNumber + chemistryNumber + physicsNumber + banglaNumber);
-console.log(sumOfAllSubjects);
+// console.log(sumOfAllSubjects);
 
 average = (sumOfAllSubjects / 5);
 console.log(average. toFixed(2));
@@ -80,3 +80,27 @@ var givenInput = 119;
 remainder = givenInput % 5;
 console.log(remainder);
 
+
+
+
+/*****Practice Problem 4 *****/
+/*Task-4
+What will be the result of the following codes:
+
+var a = isNaN(‘11’);
+
+var a = isNaN(2-10);
+
+Explain your answers. */
+
+var a = isNaN('11a');
+console.log(a);
+var a = isNaN(2-10);
+console.log(a);
+
+
+
+// var a = isNaN('Ananda');
+// console.log(a);
+// var a = isNaN(2-10);
+// console.log(a);
